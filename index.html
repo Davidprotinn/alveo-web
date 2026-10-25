@@ -3,140 +3,51 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ÁLVEO Bakery — Obsesión por el pan bien hecho</title>
-<meta name="description" content="ÁLVEO Bakery. Panadería de obrador en Guayaquil, Ecuador. Ingredientes reales. Fermentación sin prisa. Muy pronto.">
-<meta name="theme-color" content="#F6F1E8">
+<title>ÁLVEO Bakery — Muy pronto · Guayaquil</title>
+<meta name="description" content="ÁLVEO Bakery. Obsesión por el pan bien hecho. Muy pronto en Guayaquil.">
+<meta name="theme-color" content="#D9D2C7">
 <meta name="color-scheme" content="light">
 <link rel="canonical" href="https://alveobakery.com/">
-
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ÁLVEO Bakery">
 <meta property="og:locale" content="es_EC">
 <meta property="og:url" content="https://alveobakery.com/">
-<meta property="og:title" content="ÁLVEO Bakery — Obsesión por el pan bien hecho">
-<meta property="og:description" content="Ingredientes reales. Fermentación sin prisa. Muy pronto en Guayaquil.">
+<meta property="og:title" content="ÁLVEO Bakery — Muy pronto · Guayaquil">
+<meta property="og:description" content="Obsesión por el pan bien hecho. Muy pronto en Guayaquil.">
 <meta property="og:image" content="https://alveobakery.com/og-alveo.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="ÁLVEO Bakery. Obsesión por el pan bien hecho.">
 <meta name="twitter:card" content="summary_large_image">
-
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-<link rel="preload" href="/libertinus-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/noto-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Bakery",
-  "name": "ÁLVEO Bakery",
-  "url": "https://alveobakery.com/",
-  "logo": "https://alveobakery.com/icon-512.png",
-  "email": "hola@alveobakery.com",
-  "slogan": "Obsesión por el pan bien hecho.",
-  "address": { "@type": "PostalAddress", "addressLocality": "Guayaquil", "addressCountry": "EC" },
-  "sameAs": ["https://www.instagram.com/alveobakery/", "https://www.facebook.com/alveobakery"]
-}
-</script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Bakery","name":"ÁLVEO Bakery","url":"https://alveobakery.com/","logo":"https://alveobakery.com/icon-512.png","email":"hola@alveobakery.com","slogan":"Obsesión por el pan bien hecho.","address":{"@type":"PostalAddress","addressLocality":"Guayaquil","addressCountry":"EC"},"sameAs":["https://www.instagram.com/alveobakery/","https://www.facebook.com/alveobakery"]}</script>
 <style>
-@font-face{font-family:"Libertinus Serif";font-style:normal;font-weight:400;font-display:swap;src:url(/libertinus-serif-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Libertinus Serif";font-style:italic;font-weight:400;font-display:swap;src:url(/libertinus-serif-latin-400-italic.woff2) format("woff2")}
-@font-face{font-family:"Noto Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/noto-sans-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Noto Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/noto-sans-latin-700-normal.woff2) format("woff2")}
-
-:root{
-  /* Paleta del manual de identidad ÁLVEO (ed. 1.0, 24-oct-2026) */
-  --crema:#F6F1E8;   /* 55 % */
-  --piedra:#D9D2C7;  /* 25 % */
-  --carbon:#1A1A1A;  /* 15 % */
-  --oliva:#3F4634;   /*  5 % */
-  --tinta-suave:#55524C;
-  --serif:"Libertinus Serif","Linux Libertine","Georgia",serif;
-  --sans:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --margen:clamp(20px,5vw,72px);
-}
+@font-face{font-family:"Noto Sans";font-weight:400;font-display:swap;src:url(/noto-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Noto Sans";font-weight:700;font-display:swap;src:url(/noto-sans-latin-700-normal.woff2) format("woff2")}
 *{box-sizing:border-box;margin:0}
-html{background:var(--crema);color:var(--carbon);-webkit-text-size-adjust:100%}
-body{font-family:var(--sans);font-size:16px;line-height:1.5;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;padding:0 var(--margen);-webkit-font-smoothing:antialiased}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--oliva);outline-offset:3px}
-
-/* Cabecera editorial, como el manual */
-.barra{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0 14px;border-bottom:1px solid var(--carbon);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
-.barra b{font-weight:700}
-
-main{flex:1;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(16px,2.4vw,32px);align-items:center;padding:clamp(28px,6vh,72px) 0}
-
-/* Firma vertical sobre piedra */
-.firma{grid-column:1 / span 6;background:var(--piedra);aspect-ratio:4/5;max-height:72vh;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10% 12%}
-.firma .iso{width:72%;height:auto;display:block}
-.firma .logo{width:85%;color:var(--carbon);margin-top:9%;display:block}
-.firma .desc{margin-top:4.5%;font-size:clamp(11px,1.15vw,15px);letter-spacing:.42em;padding-left:.42em;text-transform:uppercase}
-
-.texto{grid-column:8 / span 5}
-.pronto{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--oliva)}
-h1{font-family:var(--serif);font-weight:400;font-size:clamp(40px,5.4vw,76px);line-height:1.06;letter-spacing:-.005em;margin-top:18px}
-.apoyo{font-size:clamp(17px,1.5vw,21px);margin-top:22px}
-.oficio{font-family:var(--serif);font-style:italic;font-size:clamp(19px,1.7vw,24px);line-height:1.35;color:var(--tinta-suave);margin-top:28px;padding-top:24px;border-top:1px solid var(--piedra);max-width:28ch}
-
-.acciones{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin-top:36px}
-.boton{display:inline-flex;align-items:center;gap:10px;background:var(--carbon);color:var(--crema);text-decoration:none;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:15px 22px;min-height:48px;transition:background-color .2s}
-.boton:hover{background:var(--oliva)}
-.boton svg{width:18px;height:18px;flex:none}
-.correo{font-size:15px;text-decoration:none;border-bottom:1px solid currentColor;padding:6px 0}
-.correo:hover{color:var(--oliva)}
-
-footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--piedra);padding:16px 0 22px;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--tinta-suave)}
-
-@media (max-width:860px){
-  main{grid-template-columns:1fr;row-gap:36px;align-items:start}
-  .firma,.texto{grid-column:1 / -1}
-  .firma{aspect-ratio:auto;max-height:none;padding:13% 12% 11%}
-  .firma .desc{font-size:12px}
-  .barra .lugar{display:none}
-}
+html{background:#D9D2C7;color:#1A1A1A}
+body{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 24px;font-family:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+.firma{width:min(440px,78vw);display:flex;flex-direction:column;align-items:center}
+.iso{width:85%;height:auto;display:block}
+.logo{width:100%;height:auto;display:block;margin-top:11%}
+.desc{margin-top:5%;font-size:clamp(11px,2.8vw,15px);letter-spacing:.42em;padding-left:.42em}
+.pronto{margin-top:clamp(56px,11vh,110px);font-size:12px;font-weight:700;letter-spacing:.32em;padding-left:.32em;line-height:2.2}
+.pronto span{display:block;font-weight:400}
 @media (prefers-reduced-motion:no-preference){
-  .firma,.texto{animation:entra .9s cubic-bezier(.2,.7,.2,1) both}
-  .texto{animation-delay:.12s}
-  @keyframes entra{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .firma,.pronto{animation:entra 1s cubic-bezier(.2,.7,.2,1) both}
+  .pronto{animation-delay:.25s}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 }
 </style>
 </head>
 <body>
-  <header class="barra">
-    <span><b>ÁLVEO BAKERY</b></span>
-    <span class="lugar">Guayaquil · Ecuador</span>
-  </header>
-
-  <main>
-    <section class="firma" aria-label="ÁLVEO Bakery">
-      <img class="iso" src="/alveo-isotipo-carbon-760.webp" width="760" height="323" alt="" decoding="async">
-      <svg class="logo" viewBox="98.85 232.85 761.39 216.99" role="img" aria-label="ÁLVEO"><path fill="currentColor" fill-rule="evenodd" d="M 581 300.9 L 575.5 306.5 L 574.6 310.1 L 573.6 311.1 L 573.6 313.8 L 572.7 314.7 L 572.7 362.5 L 571.8 363.4 L 571.8 366.1 L 572.7 367.1 L 572.7 368.9 L 571.8 369.8 L 571.8 375.3 L 572.7 376.2 L 572.7 385.4 L 571.8 386.3 L 571.8 422.1 L 570.9 423.1 L 570.9 433.1 L 573.6 438.7 L 575.5 440.5 L 579.1 442.3 L 581 442.3 L 581.9 443.2 L 585.6 443.2 L 586.5 444.2 L 645.2 444.2 L 646.2 445.1 L 661.8 444.2 L 662.7 445.1 L 664.5 445.1 L 665.4 444.2 L 674.6 444.2 L 681.1 441.4 L 684.7 435 L 684.7 432.2 L 685.6 431.3 L 685.6 425.8 L 686.6 424.9 L 686.6 422.1 L 685.6 421.2 L 685.6 416.6 L 683.8 414.8 L 681.1 414.8 L 677.4 416.6 L 675.5 418.5 L 672.8 419.4 L 670.9 421.2 L 665.4 424 L 663.6 424 L 660.9 425.8 L 655.3 426.7 L 654.4 427.6 L 650.8 427.6 L 649.8 428.6 L 642.5 428.6 L 641.6 429.5 L 637.9 429.5 L 637 428.6 L 630.6 428.6 L 629.6 427.6 L 626 427.6 L 625.1 426.7 L 623.2 426.7 L 618.6 424 L 614.9 420.3 L 614.9 419.4 L 613.1 417.5 L 613.1 415.7 L 611.3 412 L 611.3 405.6 L 610.4 404.7 L 610.4 385.4 L 611.3 384.5 L 611.3 379 L 612.2 378.1 L 612.2 376.2 L 616.8 371.6 L 620.5 370.7 L 621.4 369.8 L 626 369.8 L 626.9 368.9 L 638.8 369.8 L 642.5 371.6 L 650.8 371.6 L 652.6 370.7 L 656.3 367.1 L 658.1 363.4 L 658.1 360.6 L 659 359.7 L 659 351.4 L 656.3 349.6 L 652.6 349.6 L 650.8 348.7 L 649.8 349.6 L 637 350.5 L 636.1 351.4 L 633.3 351.4 L 632.4 352.4 L 629.6 352.4 L 628.7 353.3 L 618.6 354.2 L 614.9 352.4 L 612.2 349.6 L 612.2 347.8 L 611.3 346.9 L 611.3 343.2 L 610.4 342.3 L 610.4 335.8 L 611.3 334.9 L 611.3 325.7 L 612.2 324.8 L 613.1 319.3 L 614.9 317.5 L 614.9 316.6 L 619.5 312.9 L 623.2 312 L 624.1 311.1 L 626.9 311.1 L 627.8 310.1 L 646.2 310.1 L 647.1 311.1 L 652.6 311.1 L 653.5 312 L 656.3 312 L 657.2 312.9 L 659.9 312.9 L 660.9 313.8 L 665.4 314.7 L 669.1 316.6 L 678.3 323 L 682 323 L 684.7 320.2 L 685.6 318.4 L 685.6 315.6 L 686.6 314.7 L 686.6 300.9 L 685.6 299.1 L 682 296.4 L 680.1 296.4 L 679.2 295.4 L 674.6 295.4 L 673.7 294.5 L 604.9 294.5 L 603.9 295.4 L 596.6 295.4 L 595.7 296.4 L 589.2 297.3 Z M 563.5 295.4 L 560.8 295.4 L 559.9 294.5 L 550.7 294.5 L 549.8 295.4 L 545.2 295.4 L 544.3 294.5 L 542.4 295.4 L 527.7 295.4 L 524.1 298.2 L 524.1 300.9 L 527.7 308.3 L 527.7 318.4 L 526.8 319.3 L 526.8 323 L 525 326.7 L 525 329.4 L 520.4 338.6 L 520.4 340.4 L 510.3 360.6 L 508.5 362.5 L 502 376.2 L 500.2 378.1 L 499.3 380.8 L 496.5 383.6 L 493.8 383.6 L 490.1 379.9 L 487.3 374.4 L 487.3 372.6 L 482.8 364.3 L 482.8 362.5 L 479.1 356 L 479.1 354.2 L 475.4 347.8 L 475.4 345.9 L 471.7 339.5 L 471.7 337.7 L 468.1 331.2 L 468.1 329.4 L 462.6 319.3 L 462.6 317.5 L 459.8 312 L 459.8 306.5 L 458.9 305.5 L 458.9 302.8 L 456.1 299.1 L 455.2 299.1 L 453.4 297.3 L 451.5 297.3 L 447.9 295.4 L 422.2 295.4 L 421.2 294.5 L 413 294.5 L 412.1 295.4 L 407.5 295.4 L 404.7 297.3 L 404.7 300.9 L 405.6 302.8 L 411.1 308.3 L 412.1 311.1 L 413.9 312.9 L 426.8 338.6 L 426.8 340.4 L 439.6 366.1 L 439.6 368 L 443.3 374.4 L 443.3 376.2 L 446.9 382.7 L 446.9 384.5 L 450.6 390.9 L 450.6 392.8 L 458 407.4 L 458 409.3 L 462.6 418.5 L 462.6 420.3 L 466.2 426.7 L 468.1 433.1 L 471.7 440.5 L 474.5 443.2 L 476.3 444.2 L 479.1 444.2 L 482.8 442.3 L 486.4 437.7 L 518.6 373.5 L 520.4 371.6 L 525.9 359.7 L 527.7 357.9 L 536.9 339.5 L 538.8 337.7 L 539.7 334.9 L 541.5 333.1 L 542.4 330.3 L 544.3 328.5 L 545.2 325.7 L 547 323.9 L 547.9 321.1 L 549.8 319.3 L 550.7 316.6 L 552.5 314.7 L 556.2 308.3 L 564.5 299.1 L 564.5 296.4 Z M 312 295.4 L 310.2 297.3 L 310.2 299.1 L 315.7 305.5 L 315.7 307.4 L 317.5 311.1 L 317.5 315.6 L 318.4 316.6 L 318.4 337.7 L 319.3 338.6 L 318.4 340.4 L 318.4 344.1 L 319.3 345 L 319.3 376.2 L 318.4 377.1 L 318.4 384.5 L 319.3 385.4 L 319.3 389.1 L 318.4 390 L 318.4 423.1 L 317.5 424 L 317.5 430.4 L 316.6 431.3 L 318.4 439.6 L 322.1 442.3 L 327.6 443.2 L 328.5 444.2 L 368 444.2 L 368.9 445.1 L 373.5 445.1 L 374.4 444.2 L 421.2 444.2 L 422.2 443.2 L 424.9 443.2 L 426.8 442.3 L 429.5 439.6 L 430.4 434.1 L 431.3 433.1 L 431.3 428.6 L 432.3 427.6 L 432.3 412.9 L 431.3 412 L 427.7 412 L 415.7 421.2 L 406.6 425.8 L 404.7 425.8 L 402 427.6 L 395.5 428.6 L 394.6 429.5 L 386.4 429.5 L 385.4 430.4 L 383.6 429.5 L 377.2 429.5 L 376.3 428.6 L 373.5 428.6 L 368 425.8 L 363.4 421.2 L 361.6 417.5 L 361.6 415.7 L 360.7 414.8 L 360.7 411.1 L 359.7 410.2 L 359.7 401 L 358.8 400.1 L 358.8 334.9 L 359.7 334 L 359.7 319.3 L 360.7 318.4 L 360.7 313.8 L 361.6 312.9 L 362.5 307.4 L 365.2 302.8 L 369.8 298.2 L 369.8 296.4 L 368.9 295.4 L 326.7 295.4 L 325.8 294.5 L 315.7 294.5 L 314.8 295.4 Z M 302.8 440.5 L 293.6 431.3 L 292.7 428.6 L 288.1 422.1 L 280.8 407.4 L 278.9 405.6 L 271.6 390.9 L 269.8 389.1 L 258.8 367.1 L 256.9 365.2 L 253.2 356.9 L 251.4 355.1 L 247.7 346.9 L 245.9 345 L 239.5 332.2 L 237.6 330.3 L 233.1 321.1 L 228.5 314.7 L 226.6 310.1 L 224.8 308.3 L 219.3 297.3 L 216.5 294.5 L 211 294.5 L 200 300.9 L 194.5 306.5 L 194.5 307.4 L 185.3 320.2 L 184.4 323 L 180.7 327.6 L 179.8 330.3 L 176.1 334.9 L 175.2 337.7 L 164.2 353.3 L 163.3 356 L 161.4 357.9 L 161.4 358.8 L 148.6 377.1 L 147.7 379.9 L 143.1 385.4 L 132.1 402.9 L 129.3 405.6 L 125.6 412 L 122.9 414.8 L 121.1 418.5 L 118.3 421.2 L 118.3 422.1 L 110.9 431.3 L 110.9 432.2 L 106.4 436.8 L 106.4 437.7 L 100.9 442.3 L 100.9 443.2 L 101.8 444.2 L 132.1 444.2 L 133 445.1 L 134.8 444.2 L 145.8 444.2 L 147.7 442.3 L 147.7 439.6 L 144.9 435.9 L 144 425.8 L 144.9 424.9 L 144.9 422.1 L 145.8 421.2 L 146.8 415.7 L 153.2 402.9 L 159.6 396.4 L 166 392.8 L 171.5 391.8 L 172.5 390.9 L 177.1 390.9 L 178 390 L 188.1 390 L 189 389.1 L 211 390 L 211.9 390.9 L 215.6 390.9 L 216.5 391.8 L 218.4 391.8 L 226.6 396.4 L 232.1 402.9 L 240.4 418.5 L 240.4 420.3 L 242.2 423.1 L 242.2 424.9 L 244.1 428.6 L 244.1 432.2 L 245 433.1 L 245 435.9 L 244.1 436.8 L 244.1 441.4 L 247.7 444.2 L 301 444.2 L 302.8 442.3 Z M 188.1 336.8 L 189.9 336.8 L 190.8 335.8 L 194.5 336.8 L 199.1 341.3 L 199.1 342.3 L 202.8 346.9 L 214.7 369.8 L 214.7 373.5 L 211.9 376.2 L 210.1 377.1 L 202.8 377.1 L 201.8 376.2 L 188.1 376.2 L 187.1 377.1 L 174.3 377.1 L 172.5 378.1 L 167.9 374.4 L 167.9 370.7 L 173.4 359.7 L 175.2 357.9 L 182.6 343.2 Z M 769.2 290.9 L 768.3 291.8 L 760 291.8 L 759.1 292.7 L 754.5 292.7 L 753.6 293.6 L 750.8 293.6 L 749.9 294.5 L 742.6 296.4 L 739.8 298.2 L 738 298.2 L 726.9 303.7 L 725.1 305.5 L 722.4 306.5 L 715.9 312 L 715 312 L 702.2 324.8 L 702.2 325.7 L 695.7 334 L 690.2 345 L 690.2 346.9 L 687.5 353.3 L 687.5 356.9 L 686.6 357.9 L 686.6 361.5 L 685.6 362.5 L 685.6 379 L 686.6 379.9 L 686.6 384.5 L 687.5 385.4 L 687.5 389.1 L 688.4 390 L 689.3 394.6 L 695.7 408.4 L 700.3 413.9 L 700.3 414.8 L 704 418.5 L 704 419.4 L 713.2 427.6 L 714.1 427.6 L 719.6 432.2 L 724.2 434.1 L 726 435.9 L 731.5 438.7 L 733.4 438.7 L 736.1 440.5 L 738 440.5 L 738.9 441.4 L 740.7 441.4 L 747.1 444.2 L 754.5 445.1 L 755.4 446 L 759.1 446 L 760 446.9 L 772.9 446.9 L 773.8 447.8 L 775.6 447.8 L 776.5 446.9 L 786.6 446.9 L 787.5 446 L 795.8 445.1 L 796.7 444.2 L 802.2 443.2 L 805 441.4 L 806.8 441.4 L 819.7 435 L 821.5 433.1 L 825.2 431.3 L 841.7 415.7 L 843.5 412 L 848.1 406.5 L 853.6 395.5 L 853.6 393.7 L 855.5 390 L 855.5 387.2 L 856.4 386.3 L 856.4 383.6 L 857.3 382.7 L 857.3 377.1 L 858.2 376.2 L 858.2 360.6 L 857.3 359.7 L 856.4 349.6 L 855.5 348.7 L 853.6 341.3 L 850.9 336.8 L 850 333.1 L 848.1 331.2 L 845.4 325.7 L 841.7 322.1 L 841.7 321.1 L 830.7 310.1 L 829.8 310.1 L 827 307.4 L 826.1 307.4 L 818.8 301.9 L 813.2 299.1 L 811.4 299.1 L 808.7 297.3 L 806.8 297.3 L 804.1 295.4 L 801.3 295.4 L 800.4 294.5 L 794.9 293.6 L 794 292.7 L 789.4 292.7 L 788.5 291.8 Z M 755.4 301.9 L 758.2 301.9 L 759.1 300.9 L 771.9 300.9 L 772.9 301.9 L 775.6 301.9 L 788.5 309.2 L 795.8 316.6 L 795.8 317.5 L 799.5 321.1 L 799.5 322.1 L 805.9 330.3 L 815.1 349.6 L 815.1 352.4 L 816 353.3 L 816.9 358.8 L 817.8 359.7 L 818.8 370.7 L 819.7 371.6 L 819.7 392.8 L 818.8 393.7 L 817.8 403.8 L 816.9 404.7 L 816.9 407.4 L 816 408.4 L 815.1 412.9 L 808.7 424.9 L 801.3 432.2 L 794 435.9 L 791.2 435.9 L 790.3 436.8 L 779.3 436.8 L 778.4 435.9 L 775.6 435.9 L 774.7 435 L 772.9 435 L 770.1 433.1 L 766.4 432.2 L 764.6 430.4 L 758.2 426.7 L 754.5 423.1 L 753.6 423.1 L 742.6 411.1 L 734.3 397.3 L 734.3 395.5 L 732.5 392.8 L 732.5 390.9 L 729.7 384.5 L 729.7 381.7 L 728.8 380.8 L 728.8 378.1 L 727.9 377.1 L 727.9 371.6 L 726.9 370.7 L 726.9 346.9 L 727.9 345.9 L 727.9 341.3 L 728.8 340.4 L 729.7 334 L 730.6 333.1 L 731.5 328.5 L 738.9 314.7 L 747.1 306.5 Z M 270.7 236.7 L 267.9 234.9 L 254.2 234.9 L 253.2 235.8 L 249.6 235.8 L 248.7 236.7 L 244.1 237.6 L 233.1 243.1 L 231.2 244.9 L 227.5 246.8 L 223.9 250.5 L 222.9 250.5 L 216.5 256.9 L 215.6 256.9 L 193.6 278.9 L 193.6 279.8 L 187.1 286.3 L 187.1 289 L 192.7 289 L 193.6 288.1 L 196.3 288.1 L 197.2 287.2 L 204.6 285.3 L 207.3 283.5 L 211.9 282.6 L 230.3 273.4 L 232.1 271.6 L 239.5 267.9 L 241.3 266.1 L 250.5 260.6 L 254.2 256.9 L 255.1 256.9 L 268.9 243.1 L 270.7 239.4 Z M 270.7 236.7 "/></svg>
-      <span class="desc">Bakery</span>
-    </section>
-
-    <section class="texto">
-      <p class="pronto">Muy pronto</p>
-      <h1>Obsesión por el pan bien hecho.</h1>
-      <p class="apoyo">Ingredientes reales. Fermentación sin prisa.</p>
-      <p class="oficio">Cada masa tiene su tiempo. Respetarlo es parte del oficio.</p>
-      <div class="acciones">
-        <a class="boton" href="https://www.instagram.com/alveobakery/" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
-          Síguenos en Instagram
-        </a>
-        <a class="correo" href="mailto:hola@alveobakery.com">hola@alveobakery.com</a>
-      </div>
-    </section>
+  <main class="firma" aria-label="ÁLVEO Bakery">
+    <img class="iso" src="/alveo-isotipo-carbon-760.webp" width="760" height="323" alt="">
+    <img class="logo" src="/alveo-logotipo.svg" width="761" height="217" alt="ÁLVEO">
+    <span class="desc">BAKERY</span>
   </main>
-
-  <footer>
-    <span>© 2026 ÁLVEO Bakery</span>
-    <span>Ingredientes reales. Fermentación sin prisa.</span>
-  </footer>
+  <p class="pronto">MUY PRONTO<span>GUAYAQUIL</span></p>
 </body>
 </html>
